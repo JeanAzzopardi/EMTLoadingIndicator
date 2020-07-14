@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
   s.watchos.resources = "EMTLoadingIndicator/Resources/*.png"
   s.frameworks = "WatchKit", "UIKit"
   s.requires_arc = true
+  s.swift_versions = ["5.0"]
 end
